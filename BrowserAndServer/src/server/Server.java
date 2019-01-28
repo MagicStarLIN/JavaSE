@@ -10,7 +10,7 @@ public class Server {
 	@SuppressWarnings("resource")
 	public void startServer(){
 		try {
-			System.out.println("·şÎñÆ÷Æô¶¯À²");
+			System.out.println("æœåŠ¡å™¨å¯åŠ¨å•¦");
 			ServerSocket server = new ServerSocket(9999);
 			while(true){
 				new Handler(server.accept()).start();
