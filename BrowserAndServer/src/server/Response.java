@@ -1,6 +1,6 @@
 package server;
 
-//¿Õ°ü
+//ç©ºåŒ…
 public class Response {
 	
 	private String responseContent;
