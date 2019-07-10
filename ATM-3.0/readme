@@ -1,0 +1,13 @@
+ATM-3.0-FINAL
+IBank(interface)	-   银行模板
+	ICBC_Bank(abstract)
+		Harbin_ICBC_Bank(class) - 单例模式
+
+User(储户-序列化)
+Card(卡-序列化)
+
+Action(动作)	--单纯与用户交互，接收用户的信息，传递给业务层
+Service(处理异常、处理业务信息、余额不足判断，用户是否存在判断...)
+Dao(序列化，反序列化)-DataOperate 数据处理
+
+参照：ATM-FINAL.jpg
